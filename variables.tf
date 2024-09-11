@@ -93,3 +93,16 @@ variable "db_subnet_group_tags" {
     default = {}
   
 }
+
+
+variable "public_subnet_ids" {
+    default = {}
+}
+
+variable "private_subnet_ids" {
+    default = {}
+}
+
+variable "database_subnet_ids" {
+    default = {}
+}
